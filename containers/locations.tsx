@@ -32,7 +32,7 @@ export default function Locations() {
       className="
       flex 
       p-5
-      w-full
+      w-[80%]
       h-[80%]
       flex-col
       items-center 
