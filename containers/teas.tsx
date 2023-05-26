@@ -11,7 +11,7 @@ const TeaoftheMonth = () =>{
     const title = "Tea's of the Month"
     const subtitle = "What's Steeping at the Cozy TeaHouse?"
     return(
-            <div className="w-full md:h-screen p-5 justify-center items-center">
+            <div className="w-full p-5 justify-center items-center">
                 <div className="text-center">
         <div className="space-y-8">
           <h1 className="text-5xl md:text-7xl font-black">{title}</h1>

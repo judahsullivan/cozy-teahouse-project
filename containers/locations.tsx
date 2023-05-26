@@ -20,18 +20,19 @@ export default function Locations() {
     }}
 
     className="
-    justify-center
     flex
+    h-full
+    w-full
+    justify-center
     items-center
+    p-3
     flex-col
-      p-5
     ">
               <motion.div 
        initial={{opacity: 0, x: -100}} 
        whileInView={{opacity: 1, x: 0}}
       className="
       flex 
-      p-5
       w-[80%]
       h-[80%]
       flex-col
@@ -67,6 +68,7 @@ export default function Locations() {
         grid-cols-1
         md:grid-cols-2
         gap-4
+        m
          ">
         {locations.map((location, index)=> (
             <LocationCards 
